@@ -27,8 +27,7 @@ export default function ModernTVATerminal() {
         
         {/* Card 1: Maharshi */}
         <a 
-          href="https://your-actual-portfolio-link.com" 
-          target="_blank" 
+          href="/Maharshi" 
           rel="noopener noreferrer"
           className="group relative w-full md:w-1/2 bg-white/[0.03] border border-white/10 rounded-2xl p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:bg-white/[0.05] hover:border-cyan-500/50 hover:shadow-[0_0_30px_rgba(6,182,212,0.15)] overflow-hidden flex flex-col justify-between"
         >
