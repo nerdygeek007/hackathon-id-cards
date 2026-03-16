@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 
 export default function ModernTVATerminal() {
@@ -27,7 +29,7 @@ export default function ModernTVATerminal() {
         
         {/* Card 1: Maharshi */}
         <a 
-          href="/Maharshi" 
+          href="/maharshi" 
           rel="noopener noreferrer"
           className="group relative w-full md:w-1/2 bg-white/[0.03] border border-white/10 rounded-2xl p-6 backdrop-blur-xl transition-all duration-500 hover:-translate-y-2 hover:bg-white/[0.05] hover:border-cyan-500/50 hover:shadow-[0_0_30px_rgba(6,182,212,0.15)] overflow-hidden flex flex-col justify-between"
         >
@@ -58,7 +60,15 @@ export default function ModernTVATerminal() {
               </div>
               <div className="flex justify-between border-b border-white/5 pb-2">
                 <span>GitHub</span>
-                <a href="https://github.com/nerdygeek007" target="_blank" rel="noopener noreferrer" className="text-white">@nerdygeek007</a>
+                <span 
+                  onClick={(e) => {
+                    e.preventDefault(); 
+                    window.open('https://github.com/nerdygeek007', '_blank', 'noopener,noreferrer');
+                  }} 
+                  className="text-white hover:text-cyan-400 underline underline-offset-4 cursor-pointer relative z-20"
+                >
+                  @nerdygeek007
+                </span>
               </div>
             </div>
           </div>
@@ -106,7 +116,15 @@ export default function ModernTVATerminal() {
               </div>
               <div className="flex justify-between border-b border-white/5 pb-2">
                 <span>GitHub</span>
-                <a href="https://github.com/chaitany851P" target="_blank" rel="noopener noreferrer" className="text-white">@chaitany851P</a>
+                <span 
+                  onClick={(e) => {
+                    e.preventDefault(); 
+                    window.open('https://github.com/chaitany851P', '_blank', 'noopener,noreferrer');
+                  }} 
+                  className="text-white hover:text-purple-400 underline underline-offset-4 cursor-pointer relative z-20"
+                >
+                  @chaitany851P
+                </span>
               </div>
             </div>
           </div>
